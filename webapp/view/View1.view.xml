@@ -1,73 +1,73 @@
 <mvc:View controllerName="zprojectteste0405.controller.View1"
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
-    xmlns="sap.m" xmlns:l="sap.ui.layout"
-    xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core"
-    >
+    xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
     <Page id="page" title="{i18n>title}">
         <content>
-        <!-- <l:VerticalLayout> 수직으로 controller를 배열하는 거
-            <Input />
-            <Text text="test test" />
-            <StepInput />
-            <ComboBox />
-            <DatePicker />
-            <Select />
-            <DateRangeSelection />
-            <CheckBox />
-        </l:VerticalLayout> -->
+            <!-- <l:VerticalLayout >
+                <Input />
+                <Text text="test test"/>
+                <StepInput />
+                <ComboBox />
+                <DatePicker />
+                <Select />
+                <DateRangeSelection />
+                <CheckBox />
+            </l:VerticalLayout> -->
+            <!-- <l:HorizontalLayout >
+                <Input />
+                <Text text="test test"/>
+                <StepInput />
+                <ComboBox />
+                <DatePicker />
+                <Select />
+                <DateRangeSelection />
+                <CheckBox />
+            </l:HorizontalLayout> -->
 
-        <!-- <l:HorizontalLayout> 
-            <Input />
-            <Text text="test test" />
-            <StepInput />
-            <ComboBox />
-            <DatePicker />
-            <Select />
-            <DateRangeSelection />
-            <CheckBox />
-        </l:HorizontalLayout> -->
-        <Panel expandable="true" expanded="false"> 
-            <headerToolbar>
-                <Toolbar >
-                    <Text text="Panel Header"></Text>
-                    <ToolbarSpacer />
-                    <Button text="Custom" />
-                </Toolbar>
-            </headerToolbar>
-        <l:Grid>
-            <Input value = "test1" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-            <Input value = "test2" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-            <Input value = "test3" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-            <Input value = "test4" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-            <Input value = "test5" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-            <Input value = "test6" >
-                <layoutData>
-                    <l:GridData span="XL6 L2 M4 S12"/>
-                </layoutData>
-            </Input>
-        </l:Grid>
-        
-        <!-- <f:Form id="FormChangeColumn_threeGroups234"
+            <Panel expandable="true" expanded="true">
+                <headerToolbar>
+                    <Toolbar >
+                        <Text text="Panel Header"/>
+                        <ToolbarSpacer />
+                        <Button text="Custom"/>
+                    </Toolbar>
+                </headerToolbar>
+
+            <l:Grid >
+                <Input value="test1">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+                <Input value="test2">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+                <Input value="test3">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+                <Input value="test4">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+                <Input value="test5">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+                <Input value="test6">
+                    <layoutData>
+                        <l:GridData span="XL6 L2 M4 S12"/>
+                    </layoutData>
+                </Input>
+            </l:Grid>
+
+
+            <!-- <f:Form id="FormChangeColumn_threeGroups234"
 			editable="true">
 			<f:title>
 				<core:Title text="Supplier" />
@@ -76,7 +76,7 @@
 				<f:ColumnLayout
 					columnsM="2"
 					columnsL="3"
-					columnsXL="4" 
+					columnsXL="4"
 				/>
 			</f:layout>
 			<f:formContainers>
@@ -226,8 +226,7 @@
 				<Input value="{Fax}" type="Tel"/>
 			</f:content>
 		</f:SimpleForm>
-    </Panel>
-
+        </Panel>
         </content>
     </Page>
 </mvc:View>
